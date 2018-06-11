@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e75eb8e-c661-4eca-b994-700c0344fe2d" name="Default" comment="" />
+    <list default="true" id="9e75eb8e-c661-4eca-b994-700c0344fe2d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/131d5f3d-c47f-400a-b499-0675ab59e237.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MWhib0611.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mw/hibernate/CdStoreApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mw/hibernate/Cds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mw/hibernate/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,7 +65,7 @@
       <file leaf-file-name="CdStoreApp.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/mw/hibernate/CdStoreApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
+            <state relative-caret-position="91">
               <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
             </state>
           </provider>
@@ -62,7 +81,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/MWhib0611" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -95,8 +114,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="665" />
-    <option name="y" value="23" />
+    <option name="x" value="593" />
     <option name="width" value="1671" />
     <option name="height" value="1035" />
   </component>
@@ -114,39 +132,6 @@
             <path>
               <item name="Mw0611" type="b2602c69:ProjectViewProjectNode" />
               <item name="MWhib0611" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mw0611" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MWhib0611" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mw0611" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MWhib0611" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mw0611" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MWhib0611" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mw0611" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MWhib0611" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mw0611" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MWhib0611" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Mw0611" type="b2602c69:ProjectViewProjectNode" />
@@ -256,12 +241,12 @@
       <updated>1528730567624</updated>
       <workItem from="1528730573752" duration="1640000" />
       <workItem from="1528732837517" duration="7461000" />
-      <workItem from="1528740969986" duration="79000" />
+      <workItem from="1528740969986" duration="504000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9180000" />
+    <option name="totallyTimeSpent" value="9605000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -273,7 +258,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="229" y="9" width="1671" height="1035" extended-state="0" />
+    <frame x="660" y="24" width="1671" height="1035" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32986626" />
@@ -281,7 +266,7 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" weight="0.32951945" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50031036" side_tool="true" visible="true" weight="0.32951945" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50031036" side_tool="true" weight="0.32951945" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
@@ -450,7 +435,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mw/hibernate/CdStoreApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
+        <state relative-caret-position="91">
           <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
         </state>
       </provider>
