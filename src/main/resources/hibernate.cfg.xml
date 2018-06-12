@@ -10,14 +10,14 @@
                 name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver
         </property>
         <property
-                name="hibernate.connection.url">jdbc:mysql://localhost:3306/cdstore?serverTimezone=UTC&amp;useSSL=false
+                name="hibernate.connection.url">jdbc:mysql://localhost:3306/messagerepository?serverTimezone=UTC&amp;useSSL=false
         </property>
         <property name="hibernate.connection.username">woznima9</property>
         <property name="hibernate.connection.password">Mwmwzz1!</property>
         <!--true/false - pokazuje wysyłane zapytania do bazy przez hiberneta-->
-        <property name="hibernate.show_sql">false</property>
+        <!--<property name="hibernate.show_sql">false</property>-->
 
-        <mapping class="mw.hibernate.Cds"/>
+        <mapping class="helloworldexample.Message"/>
 
     </session-factory>
 </hibernate-configuration>

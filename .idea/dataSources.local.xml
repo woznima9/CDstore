@@ -9,7 +9,14 @@
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
       <secret-storage>master_key</secret-storage>
       <user-name>woznima9</user-name>
-      <introspection-schemas>*:cdstore</introspection-schemas>
+      <introspection-schemas>*:cdstore,messagerepository,music</introspection-schemas>
+    </data-source>
+    <data-source name="hibernate.cfg.xml/Hibernate" uuid="9870d81c-6a0c-4ade-9eee-0ef7908217f5">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <secret-storage>master_key</secret-storage>
+      <first-sync>true</first-sync>
+      <user-name>woznima9</user-name>
+      <introspection-schemas>*:</introspection-schemas>
     </data-source>
   </component>
 </project>
