@@ -1,48 +1,40 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package helloworldexample;
 
 import java.util.Iterator;
 import java.util.List;
 import java.util.Scanner;
-
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.boot.MetadataSources;
-import org.hibernate.boot.registry.StandardServiceRegistry;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.service.ServiceRegistry;
 
 /**
- * @author Producer
+ * otworzenie bazy messagerepository, odczyt istniejących i zapis wprowadzonego
+ * tekstu do tablicy message
  */
 public class HelloWorldExample {
     private static ServiceRegistry registry;
+    private static SessionFactory sessionFactory;
 
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
+      public static void main(String[] args) {
 
 
         Scanner in = new Scanner(System.in);
         String m = "";
         System.out.println("Enter a message: ");
         m = in.nextLine();
+        try {
+            registry = new StandardServiceRegistryBuilder().configure().build();   //tu configure wciąga hibernate.cfg.xml
+            sessionFactory = new MetadataSources(registry).buildMetadata().buildSessionFactory();
 
-            StandardServiceRegistry registry = new
-                    StandardServiceRegistryBuilder().configure("hibernate.cfg.xml").build();
-            SessionFactory sessionFactory = new MetadataSources(registry).buildMetadata().buildSessionFactory();
-//            Configuration conf = new Configuration().configure();
-//            registry = new StandardServiceRegistryBuilder().applySettings(
-//                    conf.getProperties()).build();
-//            factory = conf.buildSessionFactory(registry);
+        } catch (Throwable ex) {
+            System.err.println("Nie powiodło się utworzenie session factory obiektu " + ex);
+            throw new ExceptionInInitializerError(ex);
+        }
 
         Session session = sessionFactory.openSession();
         Transaction tx = null;
